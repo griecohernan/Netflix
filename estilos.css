@@ -191,14 +191,12 @@ background: red;
 
 
 
-
         /* Responsive */
 
 
 @media screen and (max-width:800px){
     header img{
-         margin-bottom: 10px;
-         width: 14%;
+         width: 25%;
     }
 
     header .contenedor{
@@ -206,8 +204,17 @@ background: red;
         text-align: center;
     }
 
+    nav{
+        width: 77%;
+    }
+
     .pelicula-principal{
         font-size: 14px;
+        background-position: center center;
+    }
+
+    .pelicula-principal .boton{
+        margin: 5px 0;
     }
 
     .pelicula-principal .descripcion{
